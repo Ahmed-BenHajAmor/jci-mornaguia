@@ -1,0 +1,35 @@
+import React from 'react'
+import { SectionHeader } from '../sectionHeader'
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import {trainingSessions} from './config';
+import "./TrainingSessions.css"
+
+function TrainingSessions() {
+  return (
+    <section className="training-section">
+      <SectionHeader title={"Our training sessions"} description={"Lorem ipsum dolor sit, amet consectetur adipisicing elit"}/>
+      <div className="training-cards">
+        {trainingSessions.map(session => {
+          return <TrainingCard key={session.id} title={session.title} image={session.image} />
+        })}
+      
+      </div>
+    </section>
+  )
+}
+
+
+const TrainingCard = ({title, image})=>{
+  return (
+    <div className="training-card">
+      <div className='image-container'>
+        <img src={image} alt="sponsor" />
+      </div>
+      <div className="training-card-description">
+        <p>{title}</p>
+        <a href="#">more details <ArrowRightAltIcon style={{fontSize: "23px"}}/></a>
+      </div>
+    </div>
+  )
+}
+export default TrainingSessions

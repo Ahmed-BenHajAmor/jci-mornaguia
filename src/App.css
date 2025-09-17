@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+
+
+
+
+html, body{
+    font-size: 25px;
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+section{
+    padding-left: 105px ;
+    padding-right: 105px;
+}
+@media screen and (max-width: 950px) {
+    section{
+        padding-left: 40px ;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    section{
+        padding-left: 20px ;
+        padding-right: 20px;
+    }
+}
+.color-blue{
+    color: #0097D7;
+}

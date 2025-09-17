@@ -1,0 +1,36 @@
+.sliding-section{
+
+    padding: 40px 0;
+    
+}
+.sliding-bar{
+    display: flex;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.sliding-bar:hover .slide{
+    animation-play-state: paused;
+}
+
+.slide{
+    white-space: nowrap;
+    animation: slide 15s linear infinite;
+    
+}
+.slide img{
+    height: 60px;
+    margin-right: 60px;
+}
+
+@keyframes slide {
+    from{transform: translateX(0);}
+    to{transform: translateX(-100%);}
+}
+
+
+@media screen and (max-width: 550px) {
+    .slide img{
+        height: 50px;
+        margin-right: 40px;
+    }
+}

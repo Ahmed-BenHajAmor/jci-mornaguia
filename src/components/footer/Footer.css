@@ -1,0 +1,30 @@
+
+footer{
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+}
+footer *{
+    color: white;
+
+}
+footer img{
+    width: 191px;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+@media screen and (max-width: 400px) {
+    footer p{
+        font-size: 20px;
+    }
+}

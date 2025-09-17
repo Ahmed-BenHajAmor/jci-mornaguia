@@ -1,0 +1,32 @@
+.projects{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F5F7FA;
+}
+
+.projects img{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-self: center;
+}
+.title{
+    color: #4D4D4D !important;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 2px !important;
+}
+.description{
+    color: #717171;
+    font-size: 13px !important;
+    font-weight: 200 !important;
+}
+
+.projects-cards{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
