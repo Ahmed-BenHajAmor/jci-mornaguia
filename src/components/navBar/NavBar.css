@@ -4,7 +4,8 @@ nav > div{
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    
+    position: fixed;
+    width: 100%;
     padding: 21px 105px;
     background-color: #F5F7FA;
 }

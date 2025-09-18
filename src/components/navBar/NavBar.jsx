@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./NavBar.css";
 import { links } from './config';
 import logo from "./assets/logo.png";
 import MenuIcon from '@mui/icons-material/Menu';
 function NavBar (){
   const [showBurger,setShowBurger] = useState(false)
+
   return (
-    <nav>
+    <nav >
       <div>
 
       <img src={logo} alt="jci mornaguia" />
@@ -22,7 +23,7 @@ function NavBar (){
       </div>
       <ul className={`menu ${showBurger && "show"}`}>
         {links.map(link=>{
-          return <li key={link.text}><a href={link.to}>{link.text}</a></li>
+          return <li key={link.text}><a href={link.to } onClick={()=>setShowBurger(prev => !prev)}>{link.text}</a></li>
         })}
       </ul>
     </nav>

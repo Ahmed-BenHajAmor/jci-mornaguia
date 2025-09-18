@@ -7,51 +7,11 @@ export const trainingSessions = [
     {
         id: 1,
         image: sponsorImg,
-        title: "Lorem ipsum dolor sit i hope that this is the best text length !",
+        title: "SponsorHack",
+        description: "ahmed ben haj amor ahmed ben haj amor ahmed ben haj amor"
         
 
     },
 
-    {
-        id: 1,
-        image: sponsorImg,
-        title: "Lorem ipsum dolor sit i hope that this is the best text length !",
-        
 
-    },
-
-    {
-        id: 1,
-        image: sponsorImg,
-        title: "Lorem ipsum dolor sit i hope that this is the best text length !",
-        
-
-    }, 
-
-    {
-        id: 1,
-        image: sponsorImg,
-        title: "Lorem ipsum dolor sit i hope that this is the best text length !",
-        
-
-    },
-    {
-        id: 1,
-        image: sponsorImg,
-        title: "Lorem ipsum dolor sit i hope that this is the best text length !",
-        
-
-    }, {
-        id: 1,
-        image: sponsorImg,
-        title: "Lorem ipsum dolor sit i hope that this is the best text length !",
-        
-
-    }, {
-        id: 1,
-        image: sponsorImg,
-        title: "Lorem ipsum dolor sit i hope that this is the best text length !",
-        
-
-    }, 
 ]
