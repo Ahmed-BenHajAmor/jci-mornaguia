@@ -5,7 +5,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import "./Projects.css"
 function Projects() {
   return (
-    <section className="projects">
+    <section id='events' className="projects">
       <SectionHeader title={"Our events"} description={"Lorem ipsum dolor sit, amet consectetur adipisicing elit"}/>
       <div className="projects-cards">
         {projects.map(project =>{

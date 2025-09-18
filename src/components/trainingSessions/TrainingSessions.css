@@ -39,6 +39,7 @@
     width: 270px;
     text-align: center;
     height: fit-content;
+    min-height: 133px;
 }
 
 

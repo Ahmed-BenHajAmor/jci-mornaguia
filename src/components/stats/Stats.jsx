@@ -10,10 +10,10 @@ function Stats() {
         threshold: 0.5,    
     });
     return (
-    <section className='stats' ref={ref}>
+    <section id='impact' className='stats' ref={ref}>
         <div className='stats-text'>
             <h2><span> Our Impact</span><br /><span style={{color: "#0097D7"}}> in Numbers</span></h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p>Celebrating Our Community Milestones</p>
         </div>
         <div className="main-stats">
        

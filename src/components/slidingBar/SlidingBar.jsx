@@ -4,7 +4,7 @@ import {SectionHeader} from "../sectionHeader"
 import logo from "./assets/logo.png"
 function SlidingBar() {
   return (
-    <section className="sliding-section">
+    <section id='partners' className="sliding-section">
       <SectionHeader title="Our partners" description="ahmed ben haj amor"/>
       <div className="sliding-bar">
         <div className="slide">

@@ -22,7 +22,7 @@ function Home() {
   }, [text]);
 
   return (
-    <section className='home'>
+    <section id='home' className='home'>
       <div className="intro">
         <h1>
           This is{" "}
@@ -34,10 +34,9 @@ function Home() {
           <span className='white'>Official Website</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit
-          exercitationem consequatur
+        A hub for innovation, leadership, and community-driven impact
         </p>
-        <Button text={"Contact"} to="#"></Button>
+        <Button text={"Contact"} to="#contact"></Button>
       </div>
       <img src={homeImage} alt="group photo" />
     </section>

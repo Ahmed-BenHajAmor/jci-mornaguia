@@ -6,15 +6,15 @@ import "./Footer.css"
 import logo from "./assets/logo.png"
 function Footer() {
   return (
-    <footer>
+    <footer id='contact'>
         <img src={logo} alt="jci mornaguia" />
         <div className='social-media-icons'>
           <a href=""><FacebookIcon /></a>
           <a href=""><InstagramIcon /></a>
           <a href=""><LinkedInIcon /></a>
         </div>
-        <p>+216-92 568 095</p>
-        <p>ahmed.benhajamorr@gmail.com</p>
+        <p>+216-20 833 389</p>
+        <p>jci.mornaguia@gmail.com</p>
     </footer>
   )
 }
